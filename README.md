@@ -31,7 +31,7 @@ Need to call InAppReviewPlugin.send_email and pass required arguments
 It uses [emailjs](https://www.emailjs.com) service that can trigger email sending via API calls.
 You need to create free account and connect real email account which will be used as sender
 
-![Send feedback](screenshots/feedback.png)
+![Send feedback](./screenshots/feedback.png)
 
 # Usage
 ## `requestReview()`

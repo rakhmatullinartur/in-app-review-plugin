@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:email_validator/email_validator.dart';
-import 'package:flutter/services.dart';
 import 'package:in_app_review_plugin/in_app_review_plugin.dart';
 
 void main() {

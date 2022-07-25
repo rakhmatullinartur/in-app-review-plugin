@@ -7,9 +7,6 @@ import 'dart:convert';
 import 'in_app_review_plugin_platform_interface.dart';
 
 class InAppReviewPlugin {
-  Future<String?> getPlatformVersion() {
-    return InAppReviewPluginPlatform.instance.getPlatformVersion();
-  }
 
   Future<void> requestReview() {
     return InAppReviewPluginPlatform.instance.requestReview();

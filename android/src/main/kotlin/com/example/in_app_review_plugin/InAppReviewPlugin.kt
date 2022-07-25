@@ -29,11 +29,8 @@ class InAppReviewPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
   }
 
   override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
-    if (call.method == "getPlatformVersion") {
-      result.success("Android ${android.os.Build.VERSION.RELEASE}")
-    }
-    else if (call.method == 'requestReview'){
-
+    if (call.method == 'requestReview'){
+        requestReview(result)
     }
     else {
       result.notImplemented()

@@ -23,10 +23,6 @@ abstract class InAppReviewPluginPlatform extends PlatformInterface {
     _instance = instance;
   }
 
-  Future<String?> getPlatformVersion() {
-    throw UnimplementedError('platformVersion() has not been implemented.');
-  }
-
   Future<void> requestReview() {
     throw UnimplementedError('requestReview() has not been implemented.');
   }
